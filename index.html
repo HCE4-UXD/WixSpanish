@@ -202,17 +202,30 @@ $(".submit").click(function(){
     <input type="text" name="city" placeholder="Ciudad" />
  <!-- Clients Country -->
     <input type="text" name="country" placeholder="País" />
-<!-- Clients choice of products -->
-    <input type="text" name="products" placeholder="Choice of Products" />
-    <select id="prd" name="products">
-    <option value="" disabled selected hidden>Choix du séminaire</option>  
-    <option value="Séminaire NT4">Séminaire NT4</option>
-    <option value="Séminaire Finance">Séminaire Finance</option>
-    <option value="Séminaire marketing">Séminaire marketing</option>
-    <option value="Séminaire de gestion">Séminaire de gestion</option>
+	  
+<!-- Clients choice of seminars -->
+    <input type="text" name="seminars" placeholder="Elección de Productos" />
+    <select id="sem" name="seminars">
+    <option value="" disabled selected hidden>Elección del seminario</option>  
+    <option value="Seminario NT4">Seminario NT4</option>
+    <option value="Seminario de finanzas">Seminario de finanzas</option>
+    <option value="Seminario de marketing">Seminario de marketing</option>
+    <option value="Seminario de gestión">Seminario de gestión</option>
   </select>
+
+<!-- Clients choice of products -->
+<select id="cars" name="products">
+                    <option value="" disabled selected hidden>Elige un Producto</option>
+                    <option value="3month">3 Meses de Soporte</option>
+                    <option value="2days">Seminario de 2 Días</option>
+                    <option value="2d3m">Seminario de 2 Días + 3 Meses de Soporte</option>
+                    <option value="5d6m">Seminario de 5 Días + 6 Meses de Soporte</option>
+                </select>
+  
+<!-- Additional Message by Client -->
+<input type="text" name="message" placeholder="Ingrese un Mensaje" />
    
-    <input type="submit" name="submit" class="submit action-button" value="Submit" />
+    <input type="submit" name="submit" class="submit action-button" value="Enviar" />
   </fieldset>
 </form>
 	
